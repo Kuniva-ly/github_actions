@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Afficher "Hello World"
-        run: echoo "Hello World"
+        run: echo "Hello World"
       - name: Script multi-lignes
         run: |
           python3 --version
